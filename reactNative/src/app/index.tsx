@@ -1,7 +1,7 @@
 import { CategoryButton } from '@/components/category-button'
 import { Header } from '@/components/header'
 import { FlatList, SectionList, Text, View } from 'react-native'
-import { CATEGORIES, MENU } from '@/utils/data/products'
+import { CATEGORIES, MENU, ProductProps } from '@/utils/data/products'
 import { useState, useRef } from 'react'
 import { Product } from '@/components/product'
 import { Link } from 'expo-router'
@@ -16,7 +16,7 @@ export default function Home() {
     0,
   )
 
-  const sectionListRef = useRef<SectionList>(null)
+  const sectionListRef = useRef<SectionList<ProductProps>>(null)
 
   function handleCategorySelect(selectedCategory: string) {
     setCategory(selectedCategory)
