@@ -14,7 +14,7 @@ React-Native | [Clique aqui](https://github.com/W-Wag/NLW-EXPERT/tree/main/react
 --------------------------------------------
 
 
-## Certicados de Conclução
+## Certicados de Conclusão
 
 ### React
 https://app.rocketseat.com.br/certificates/629f046a-b8a5-4271-99c3-ba88f01eaca5
